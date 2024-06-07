@@ -262,3 +262,6 @@ apt install -y "${HARDWARE_PACKAGES[@]}"
 configure_network
 apply_tweaks
 enable_oem
+
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+
