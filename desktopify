@@ -232,7 +232,7 @@ case ${CODENAME} in
         ;;
     *)
         echo "[!] This script is only intended to run on Ubuntu 20.04."
-        exit 1
+        #JZ exit 1
         ;;
 esac
 
